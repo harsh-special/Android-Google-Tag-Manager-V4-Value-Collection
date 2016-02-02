@@ -1,0 +1,73 @@
+-injars 'C:\Users\harsh.parikh\Downloads\HelloWorld1\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'C:\Users\harsh.parikh\Downloads\HelloWorld1\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\android-sdks\build-tools\23.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration 'C:\Users\harsh.parikh\Downloads\HelloWorld1\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.android.tools.fd.runtime.BootstrapApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.google.android.tagmanager.examples.helloworld.MainActivity {
+    <init>();
+}
+
+-keep class com.google.tagmanager.PreviewActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.appinvite.PreviewActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

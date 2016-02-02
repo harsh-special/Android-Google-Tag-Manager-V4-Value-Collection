@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+    defaultConfig {
+        applicationId "com.google.android.tagmanager.examples.helloworld"
+        minSdkVersion 10
+        targetSdkVersion 23
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.android.support:multidex:1.0.1'
+    /*compile files('libs/libGoogleAnalyticsServices.jar')*/
+    compile 'com.google.android.gms:play-services:8.4.0'
+}

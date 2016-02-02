@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\harsh.parikh\\Downloads\\HelloWorld1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\harsh.parikh\\Downloads\\HelloWorld1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "C:\\Users\\harsh.parikh\\Downloads\\HelloWorld1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\a.json",
+        "source": "C:\\Users\\harsh.parikh\\Downloads\\HelloWorld1\\app\\src\\main\\res\\raw\\a.json"
+    }
+]
