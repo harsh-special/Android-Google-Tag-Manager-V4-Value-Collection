@@ -90,7 +90,7 @@ public class MainActivity extends Activity {
         // The container holder might have not been set at this moment. For an example that shows
         // how to use a splash screen to guarantee that the container holder will be initialized,
         // see cuteanimals example.
-      /*  if (mContainerHolder != null) {
+       if (mContainerHolder != null) {
             alertDialog.setMessage(BACKGROUND_COLOR_KEY + " = "
                     + mContainerHolder.getContainer().getString(BACKGROUND_COLOR_KEY)
                     + " " + TEXT_COLOR_KEY + " = "
@@ -105,7 +105,7 @@ public class MainActivity extends Activity {
                     public void onClick(DialogInterface dialog, int which) {
                     }
                 });
-        alertDialog.show();*/
+        alertDialog.show();
         updateColors();
     }
 
